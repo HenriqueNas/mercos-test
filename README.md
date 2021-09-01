@@ -1,6 +1,7 @@
 # Esse repositório é para um teste da mercos.com
 
-Um simples projeto de controle de entrada e saída financeiro
+Um simples projeto de controle de entrada e saída financeiro.
+Codei em typescript, utilizando React para o frontend, e no backend NodeJs (v14.17.5) com express e typeorm.
 
 ## Banco de Dados
 
