@@ -22,6 +22,13 @@ sudo docker run --name mercos -e POSTGRES_PASSWORD=psql -e POSTGRES_USER=postgre
 
 ## Instalação
 
+Lembre-se, diferentes versões de node podem dar problema, certifique-se de usar a versão v14.17.5.
+```bash
+nvm install 14.17.5
+
+nvm use v14.17.5
+```
+
 Agora é só instalar as dependencias.
 Entre nos diretórios 'frontend' e 'backend', instale usando teu gerenciador de pacote.
 
@@ -36,7 +43,7 @@ yarn install
 
 ## Iniciando
 
-Agora é só realizar as migrations no backend, erodar o projeto em dois terminais separado
+Antes de iniciar, realize as migrations no backend, depois rode os projetos em dois terminais separados.
 
 ```bash
 cd backend
